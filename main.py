@@ -3,7 +3,7 @@ from csv_manager.translator import get_headers, transform_json
 
 
 def main():
-    OLD_FILE = "./bloqueio_cautelar.csv"
+    OLD_FILE = "./old_file.csv"
     old_content = read(OLD_FILE)
     print("Old Content")
     print(old_content)
